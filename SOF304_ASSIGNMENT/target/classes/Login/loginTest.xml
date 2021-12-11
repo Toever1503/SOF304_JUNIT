@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite 1">
+	<test name="test login">
+		<packages>
+			<package name="Login">
+				<classes>
+					<class name="Login.LoginTest">
+						<methods>
+							<include name="login" />
+						</methods>
+					</class>
+				</classes>
+			</package>
+		</packages>
+	</test>
+
+<!-- 	<test name="test login"> -->
+<!-- 		<packages> -->
+<!-- 			<package name="test login remmember true"> -->
+<!-- 				<classes> -->
+<!-- 					<class name="Login.LoginTest"> -->
+<!-- 						<parameters> -->
+<!-- 							<parameter name="testname" value="testRemeberTrue" /> -->
+<!-- 							<parameter name="username" value="aaaaa" /> -->
+<!-- 							<parameter name="password" value="aaaaa" /> -->
+<!-- 							<parameter name="expected" value="false" /> -->
+<!-- 							<parameter name="type" value="1" /> -->
+<!-- 						</parameters> -->
+<!-- 						<methods> -->
+<!-- 							<include name="loginRemember" /> -->
+<!-- 						</methods> -->
+<!-- 					</class> -->
+<!-- 				</classes> -->
+<!-- 			</package> -->
+<!-- 		</packages> -->
+<!-- 	</test> -->
+<!-- 	<test name="test login remmember false "> -->
+<!-- 		<packages> -->
+<!-- 			<package name="Login"> -->
+<!-- 				<parameter name="testRemeberFalse" -->
+<!-- 					value="testRemeberFalse" /> -->
+<!-- 				<parameter name="username" value="aaaaa" /> -->
+<!-- 				<parameter name="password" value="aaaaa" /> -->
+<!-- 				<parameter name="expected" value="true" /> -->
+<!-- 				<parameter name="type" value="0" /> -->
+<!-- 				<classes> -->
+<!-- 					<class name="Login.LoginTest"> -->
+<!-- 						<methods> -->
+<!-- 							<include name="loginRemember" /> -->
+<!-- 						</methods> -->
+<!-- 					</class> -->
+<!-- 				</classes> -->
+<!-- 			</package> -->
+<!-- 		</packages> -->
+<!-- 	</test> -->
+
+</suite>

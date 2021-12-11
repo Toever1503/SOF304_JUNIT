@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite Add user">
+
+<!-- 	<test name="Test username null"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="AddUser.AddUserTest"> -->
+<!-- 				<parameter name="username" value=""></parameter> -->
+<!-- 				<parameter name="email" value="ad@aa.com"></parameter> -->
+<!-- 				<methods> -->
+<!-- 					<include name="checkFocusUserAndEmail" /> -->
+<!-- 				</methods> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test>  -->
+	<!-- Test -->
+
+<!-- 	<test name="Test email null1"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="AddUser.AddUserTest"> -->
+<!-- 				<parameter name="username" value="dadaaaf"></parameter> -->
+<!-- 				<parameter name="email" value=""></parameter> -->
+<!-- 				<methods> -->
+<!-- 					<include name="checkFocusUserAndEmail" /> -->
+<!-- 				</methods> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	<!-- Test -->
+
+<!-- 	<test name="Test focus passsword null"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="AddUser.AddUserTest"> -->
+<!-- 				<parameter name="password" value=""></parameter> -->
+<!-- 				<methods> -->
+<!-- 					<include name="checkFocusPassword" /> -->
+<!-- 				</methods> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test>  -->
+	<!-- Test -->
+	
+	<test name="Test add user">
+<!-- 				<parameter name="testname" value="afaf"></parameter> -->
+<!-- 				<parameter name="username" value="ava891"></parameter> -->
+<!-- 				<parameter name="email" value="a25@AF.A"></parameter> -->
+<!-- 				<parameter name="firstname" value="aaafa"></parameter> -->
+<!-- 				<parameter name="lastname" value="absd"></parameter> -->
+<!-- 				<parameter name="website" value="agaa"></parameter> -->
+<!-- 				<parameter name="language" value="0"></parameter> -->
+<!-- 				<parameter name="password" value="aaga"></parameter> -->
+<!-- 				<parameter name="sendUserNotice" value="0"></parameter> -->
+<!-- 				<parameter name="role" value="0"></parameter> -->
+<!-- 				<parameter name="expected" value="New user created. Edit user"></parameter> -->
+<!-- 				<parameter name="type" value="1"></parameter> -->
+		<classes>
+			<class name="AddUser.AddUserTest">
+				<methods>
+					<include name="addUser" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+<!-- 	<test name="Test checkbox confirm active"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="AddUser.AddUserTest"> -->
+<!-- 				<parameter name="password" value="a"></parameter> -->
+<!-- 				<parameter name="expected" value="table-row"></parameter> -->
+<!-- 				<methods> -->
+<!-- 					<include name="activeCheckBoxConfirmWeakPassword" /> -->
+<!-- 				</methods> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test>  -->
+	<!-- Test -->
+
+<!-- 	<test name="Test checkbox confirm active"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="AddUser.AddUserTest"> -->
+<!-- 				<parameter name="password" value="123456"></parameter> -->
+<!-- 				<parameter name="expected" value="table-row"></parameter> -->
+<!-- 				<methods> -->
+<!-- 					<include name="activeCheckBoxConfirmWeakPassword" /> -->
+<!-- 				</methods> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	 <!-- Test -->
+
+<!-- 	<test name="Test checkbox confirm none active"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="AddUser.AddUserTest"> -->
+<!-- 				<parameter name="password" value="ba8$32941a"></parameter> -->
+<!-- 				<parameter name="expected" value="none"></parameter> -->
+<!-- 				<methods> -->
+<!-- 					<include name="activeCheckBoxConfirmWeakPassword" /> -->
+<!-- 				</methods> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test>  -->
+	<!-- Test -->
+
+<!-- 	<test name="Test website save"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="AddUser.AddUserTest"> -->
+<!-- 				<parameter name="username" value="aab141"></parameter> -->
+<!-- 				<parameter name="email" value="f12a91012164@s.c1"></parameter> -->
+<!-- 				<parameter name="website" -->
+<!-- 					value="http://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa9"></parameter> -->
+<!-- 				<methods> -->
+<!-- 					<include name="isWebsiteFiedSave" /> -->
+<!-- 				</methods> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test>  -->
+	<!-- Test -->
+
+<!-- 	<test name="Test website none save"> -->
+<!-- 		<classes> -->
+<!-- 			<class name="AddUser.AddUserTest"> -->
+<!-- 				<parameter name="username" value="zva14151"></parameter> -->
+<!-- 				<parameter name="email" value="f12a91012164@s.c12"></parameter> -->
+<!-- 				<parameter name="website" -->
+<!-- 					value="http://aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa1"></parameter> -->
+<!-- 				<methods> -->
+<!-- 					<include name="isWebsiteFiedSave" /> -->
+<!-- 				</methods> -->
+<!-- 			</class> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+	 <!-- Test -->
+
+</suite> <!-- Suite Add user -->

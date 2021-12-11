@@ -1,0 +1,1882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="31" passed="14" failed="16" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-10T12:32:54 ICT" name="suite 1" finished-at="2021-12-10T12:37:32 ICT" duration-ms="278473">
+    <groups>
+    </groups>
+    <test started-at="2021-12-10T12:32:54 ICT" name="test login" finished-at="2021-12-10T12:37:32 ICT" duration-ms="278473">
+      <class name="Login.LoginTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:32:54 ICT" name="beforeMethod" finished-at="2021-12-10T12:33:03 ICT" duration-ms="8098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:03 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:33:05 ICT" duration-ms="2750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiểm tra đăng nhập để trống]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: Mục nhập tên người dùng trống.
+Lỗi: Mục nhập mật khẩu trống.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:05 ICT" name="afterMethod" finished-at="2021-12-10T12:33:05 ICT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:05 ICT" name="beforeMethod" finished-at="2021-12-10T12:33:11 ICT" duration-ms="5940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:11 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:33:14 ICT" duration-ms="2720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiểm tra đăng nhập để trống username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11414]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: Mục nhập tên người dùng trống.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:14 ICT" name="afterMethod" finished-at="2021-12-10T12:33:14 ICT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:14 ICT" name="beforeMethod" finished-at="2021-12-10T12:33:17 ICT" duration-ms="3290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:17 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:33:20 ICT" duration-ms="2802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiểm tra đăng nhập để trống password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wordpress]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: Mục nhập mật khẩu trống.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:20 ICT" name="afterMethod" finished-at="2021-12-10T12:33:20 ICT" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:20 ICT" name="beforeMethod" finished-at="2021-12-10T12:33:25 ICT" duration-ms="4180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:25 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:33:28 ICT" duration-ms="3709" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiểm tra đăng nhập với username chứa ký tự đặc biệt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ad#min]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: tên đăng nhập ad#min chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.
+thông báo lỗi usename không hợp lệ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Lỗi: tên đăng nhập ad#min chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.
+thông báo lỗi usename không hợp lệ] but found [Lỗi: tên đăng nhập ad#min chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Lỗi: tên đăng nhập ad#min chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.
+thông báo lỗi usename không hợp lệ] but found [Lỗi: tên đăng nhập ad#min chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.LoginTest.login(LoginTest.java:170)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:28 ICT" name="afterMethod" finished-at="2021-12-10T12:33:28 ICT" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:28 ICT" name="beforeMethod" finished-at="2021-12-10T12:33:35 ICT" duration-ms="6693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:35 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:33:43 ICT" duration-ms="8335" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiểm tra đăng nhập với password chứa ký tự đặc biệt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[author]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[d67^NUCfh2*Z&*f3N#5kWpH5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dashboard ‹ Animenews — WordPress]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Dashboard ‹ Animenews — WordPress] but found [Hồ sơ ‹ Animenews — WordPress]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Dashboard ‹ Animenews — WordPress] but found [Hồ sơ ‹ Animenews — WordPress]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.LoginTest.login(LoginTest.java:162)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:44 ICT" name="afterMethod" finished-at="2021-12-10T12:33:45 ICT" duration-ms="1040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:45 ICT" name="beforeMethod" finished-at="2021-12-10T12:33:49 ICT" duration-ms="4814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:49 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:33:54 ICT" duration-ms="4899" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiểm tra đăng nhập với username chứa ký tự có dấu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hélo12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: tên đăng nhập hélo12 chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Lỗi: tên đăng nhập hélo12 chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.] but found [Lỗi: tên đăng nhập helo12 chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Lỗi: tên đăng nhập hélo12 chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.] but found [Lỗi: tên đăng nhập helo12 chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.LoginTest.login(LoginTest.java:170)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:54 ICT" name="afterMethod" finished-at="2021-12-10T12:33:54 ICT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:54 ICT" name="beforeMethod" finished-at="2021-12-10T12:33:57 ICT" duration-ms="3066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:33:57 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:34:01 ICT" duration-ms="3179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiểm tra đăng nhập với password  chứa ký tự có dấu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wordpress]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[húnos]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: Mật khẩu mà bạn đã nhập cho người dùng wordpress chưa đúng. Bạn quên mật khẩu?]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:01 ICT" name="afterMethod" finished-at="2021-12-10T12:34:02 ICT" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:02 ICT" name="beforeMethod" finished-at="2021-12-10T12:34:10 ICT" duration-ms="7979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:10 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:34:15 ICT" duration-ms="4752" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiểm tra max  length username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcrossbrowsertestingForexampleifyouretestingasubmissionforminvariousbrowsersyoumaywanttofillitfullywithtextsothattherearenolinebreaksSimilarlyyoumaywanttotestinputelementswithverylongtextthathasnospacesAndanotherexampleisgeneratingrandomlookingdataasafterremovingwhitespacesthetextbecomesverylongwithnowordstructureLoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcrossLoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcrossbrowsertestingForexampleifyouretestingasubmissionforminvariousbrowsersyoumaywanttofillitfullywithtextsothattherearenolinebreaksSimilarlyyoumaywanttotestinputelementswithverylongtextthathasnospacesAndanotherexampleisgeneratingrandomlookingdataasafterremovingwhitespacesthetextbecomesverylongwithnowordstructureLoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcrossndanotherexampleisgeneratingrandomlookingdataasafterremovingwhitespacesthetextbecomesverylongwithnowordstructureLoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcross]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jfff912]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: tên đăng nhập LoremIpsumissimplydummytextoftheLoremIpsumissimplydummytextofthe{1000} chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Lỗi: tên đăng nhập LoremIpsumissimplydummytextoftheLoremIpsumissimplydummytextofthe{1000} chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.] but found [Lỗi: tên đăng nhập LoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcrossbrowsertestingForexampleifyouretestingasubmissionforminvariousbrowsersyoumaywanttofillitfullywithtextsothattherearenolinebreaksSimilarlyyoumaywanttotestinputelementswithverylongtextthathasnospacesAndanotherexampleisgeneratingrandomlookingdataasafterremovingwhitespacesthetextbecomesverylongwithnowordstructureLoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcrossLoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcrossbrowsertestingForexampleifyouretestingasubmissionforminvariousbrowsersyoumaywanttofillitfullywithtextsothattherearenolinebreaksSimilarlyyoumaywanttotestinputelementswithverylongtextthathasnospacesAndanotherexampleisgeneratingrandomlookingdataasafterremovingwhitespacesthetextbecomesverylongwithnowordstructureLoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcrossndanotherexampleisgeneratingrandomlookingdataasafterremovingwhitespacesthetextbecomesverylongwithnowordstructureLoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcross chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Lỗi: tên đăng nhập LoremIpsumissimplydummytextoftheLoremIpsumissimplydummytextofthe{1000} chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.] but found [Lỗi: tên đăng nhập LoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcrossbrowsertestingForexampleifyouretestingasubmissionforminvariousbrowsersyoumaywanttofillitfullywithtextsothattherearenolinebreaksSimilarlyyoumaywanttotestinputelementswithverylongtextthathasnospacesAndanotherexampleisgeneratingrandomlookingdataasafterremovingwhitespacesthetextbecomesverylongwithnowordstructureLoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcrossLoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcrossbrowsertestingForexampleifyouretestingasubmissionforminvariousbrowsersyoumaywanttofillitfullywithtextsothattherearenolinebreaksSimilarlyyoumaywanttotestinputelementswithverylongtextthathasnospacesAndanotherexampleisgeneratingrandomlookingdataasafterremovingwhitespacesthetextbecomesverylongwithnowordstructureLoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcrossndanotherexampleisgeneratingrandomlookingdataasafterremovingwhitespacesthetextbecomesverylongwithnowordstructureLoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcross chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.LoginTest.login(LoginTest.java:170)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:15 ICT" name="afterMethod" finished-at="2021-12-10T12:34:15 ICT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:15 ICT" name="beforeMethod" finished-at="2021-12-10T12:34:18 ICT" duration-ms="3023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:18 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:34:21 ICT" duration-ms="2835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiểm tra min length username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hanos]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: Mục nhập tên người dùng trống.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:21 ICT" name="afterMethod" finished-at="2021-12-10T12:34:21 ICT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:21 ICT" name="beforeMethod" finished-at="2021-12-10T12:34:26 ICT" duration-ms="5422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:26 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:34:30 ICT" duration-ms="4131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiểm tra max length password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wordpress]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcrossbrowsertestingForexampleifyouretestingasubmissionforminvariousbrowsersyoumaywanttofillitfullywithtextsothattherearenolinebreaksSimilarlyyoumaywanttotestinputelementswithverylongtextthathasnospacesAndanotherexampleisgeneratingrandomlookingdataasafterremovingwhitespacesthetextbecomesverylongwithnowordstructureLoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcrossLoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcrossbrowsertestingForexampleifyouretestingasubmissionforminvariousbrowsersyoumaywanttofillitfullywithtextsothattherearenolinebreaksSimilarlyyoumaywanttotestinputelementswithverylongtextthathasnospacesAndanotherexampleisgeneratingrandomlookingdataasafterremovingwhitespacesthetextbecomesverylongwithnowordstructureLoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcrossndanotherexampleisgeneratingrandomlookingdataasafterremovingwhitespacesthetextbecomesverylongwithnowordstructureLoremIpsumissimplydummytextAwhitespaceremovercanbeusefulifyouredoingcross]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: Mật khẩu mà bạn đã nhập cho người dùng wordpress chưa đúng. Bạn quên mật khẩu?]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:30 ICT" name="afterMethod" finished-at="2021-12-10T12:34:31 ICT" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:31 ICT" name="beforeMethod" finished-at="2021-12-10T12:34:34 ICT" duration-ms="3821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:34 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:34:40 ICT" duration-ms="6043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiểm tra min length password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wordpress]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: Mục nhập mật khẩu trống.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:40 ICT" name="afterMethod" finished-at="2021-12-10T12:34:41 ICT" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:41 ICT" name="beforeMethod" finished-at="2021-12-10T12:34:46 ICT" duration-ms="4540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:46 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:34:54 ICT" duration-ms="8358" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thành công với tên đăng nhập người dùng đã đăng ký]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[author]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[d67^NUCfh2*Z&*f3N#5kWpH5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dashboard ‹ Animenews — WordPress]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Dashboard ‹ Animenews — WordPress] but found [Hồ sơ ‹ Animenews — WordPress]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Dashboard ‹ Animenews — WordPress] but found [Hồ sơ ‹ Animenews — WordPress]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.LoginTest.login(LoginTest.java:162)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:54 ICT" name="afterMethod" finished-at="2021-12-10T12:34:54 ICT" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:54 ICT" name="beforeMethod" finished-at="2021-12-10T12:34:58 ICT" duration-ms="3884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:34:58 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:35:01 ICT" duration-ms="3225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thất bại tên đăng nhập người dùng sai password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wordpress]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36hssd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: Mật khẩu mà bạn đã nhập cho người dùng wordpress chưa đúng. Bạn quên mật khẩu?]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:01 ICT" name="afterMethod" finished-at="2021-12-10T12:35:01 ICT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:01 ICT" name="beforeMethod" finished-at="2021-12-10T12:35:05 ICT" duration-ms="3383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:05 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:35:07 ICT" duration-ms="2592" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thất bại tên đăng nhập người dùng chưa đăng ký]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wordpress2q]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36hssd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: tên đăng nhập wordpress2q chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Lỗi: tên đăng nhập wordpress2q chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Lỗi: tên đăng nhập wordpress2q chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.] but found [null]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.LoginTest.login(LoginTest.java:170)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:07 ICT" name="afterMethod" finished-at="2021-12-10T12:35:07 ICT" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:07 ICT" name="beforeMethod" finished-at="2021-12-10T12:35:10 ICT" duration-ms="3104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:10 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:35:13 ICT" duration-ms="2811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thất bại với username chứa space]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wordp ress2q]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36hssd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: tên đăng nhập wordp ress2q chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:13 ICT" name="afterMethod" finished-at="2021-12-10T12:35:13 ICT" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:13 ICT" name="beforeMethod" finished-at="2021-12-10T12:35:17 ICT" duration-ms="3511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:17 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:35:19 ICT" duration-ms="2439" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thành công với tên đăng nhập email đã đăng ký]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[afa@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[d67^NUCfh2*Z&*f3N#5kWpH5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dashboard ‹ Animenews — WordPress]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Dashboard ‹ Animenews — WordPress] but found [Đăng nhập ‹ Animenews — WordPress]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Dashboard ‹ Animenews — WordPress] but found [Đăng nhập ‹ Animenews — WordPress]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.LoginTest.login(LoginTest.java:162)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:19 ICT" name="afterMethod" finished-at="2021-12-10T12:35:19 ICT" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:19 ICT" name="beforeMethod" finished-at="2021-12-10T12:35:23 ICT" duration-ms="3386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:23 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:35:26 ICT" duration-ms="3071" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thất bại với tên đăng nhập email sai password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[afa@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36hsssafd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: Mật khẩu bạn nhập cho địa chỉ email afa@gmail.com không đúng. Bạn quên mật khẩu?]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Lỗi: Mật khẩu bạn nhập cho địa chỉ email afa@gmail.com không đúng. Bạn quên mật khẩu?] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Lỗi: Mật khẩu bạn nhập cho địa chỉ email afa@gmail.com không đúng. Bạn quên mật khẩu?] but found [null]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.LoginTest.login(LoginTest.java:170)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:26 ICT" name="afterMethod" finished-at="2021-12-10T12:35:26 ICT" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:26 ICT" name="beforeMethod" finished-at="2021-12-10T12:35:34 ICT" duration-ms="7630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:34 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:35:37 ICT" duration-ms="2895" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thất bại với tên đăng nhập email chưa đăng ký]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[af141a@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[36hsssafd]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn.] but found [Đăng nhập ‹ Animenews — WordPress]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Địa chỉ email không xác định. Kiểm tra lại hoặc thử tên người dùng của bạn.] but found [Đăng nhập ‹ Animenews — WordPress]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.LoginTest.login(LoginTest.java:162)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:37 ICT" name="afterMethod" finished-at="2021-12-10T12:35:37 ICT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:37 ICT" name="beforeMethod" finished-at="2021-12-10T12:35:42 ICT" duration-ms="5305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:42 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:35:53 ICT" duration-ms="10826" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thành công với username đã đăng ký là số]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dashboard ‹ Animenews — WordPress]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Dashboard ‹ Animenews — WordPress] but found [Hồ sơ ‹ Animenews — WordPress]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Dashboard ‹ Animenews — WordPress] but found [Hồ sơ ‹ Animenews — WordPress]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.LoginTest.login(LoginTest.java:162)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:53 ICT" name="afterMethod" finished-at="2021-12-10T12:35:53 ICT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:53 ICT" name="beforeMethod" finished-at="2021-12-10T12:35:57 ICT" duration-ms="4238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:35:57 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:36:04 ICT" duration-ms="6622" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thành công với username đã đăng ký là chữ cái]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaaaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aaaaa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dashboard ‹ Animenews — WordPress]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Dashboard ‹ Animenews — WordPress] but found [Hồ sơ ‹ Animenews — WordPress]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Dashboard ‹ Animenews — WordPress] but found [Hồ sơ ‹ Animenews — WordPress]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.LoginTest.login(LoginTest.java:162)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:04 ICT" name="afterMethod" finished-at="2021-12-10T12:36:04 ICT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:04 ICT" name="beforeMethod" finished-at="2021-12-10T12:36:08 ICT" duration-ms="4558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:08 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:36:11 ICT" duration-ms="2513" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thất bại với username chưa đăng ký là chữ số]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111112]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: tên đăng nhập 111112 chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Lỗi: tên đăng nhập 111112 chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Lỗi: tên đăng nhập 111112 chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.] but found [null]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.LoginTest.login(LoginTest.java:170)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:11 ICT" name="afterMethod" finished-at="2021-12-10T12:36:11 ICT" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:11 ICT" name="beforeMethod" finished-at="2021-12-10T12:36:15 ICT" duration-ms="3869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:15 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:36:18 ICT" duration-ms="2796" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thất bại với username chưa đăng ký là chữ cái]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaaaab1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aaaaa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: tên đăng nhập aaaaab chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Lỗi: tên đăng nhập aaaaab chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.] but found [Lỗi: tên đăng nhập aaaaab1 chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Lỗi: tên đăng nhập aaaaab chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.] but found [Lỗi: tên đăng nhập aaaaab1 chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.LoginTest.login(LoginTest.java:170)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:18 ICT" name="afterMethod" finished-at="2021-12-10T12:36:18 ICT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:18 ICT" name="beforeMethod" finished-at="2021-12-10T12:36:22 ICT" duration-ms="3735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:22 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:36:25 ICT" duration-ms="3404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thất bại với username chưa đăng ký là chữ ký tự đặc biệt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[f%$@%]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: tên đăng nhập f%$@% chưa được đăng ký trên trang web này. Nếu bạn không chắc chắn về tên người dùng của mình, hãy thử địa chỉ email của bạn.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:25 ICT" name="afterMethod" finished-at="2021-12-10T12:36:25 ICT" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:25 ICT" name="beforeMethod" finished-at="2021-12-10T12:36:29 ICT" duration-ms="4263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:29 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:36:38 ICT" duration-ms="8597" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thành công với password là số]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dashboard ‹ Animenews — WordPress]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Dashboard ‹ Animenews — WordPress] but found [Hồ sơ ‹ Animenews — WordPress]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Dashboard ‹ Animenews — WordPress] but found [Hồ sơ ‹ Animenews — WordPress]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.LoginTest.login(LoginTest.java:162)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:38 ICT" name="afterMethod" finished-at="2021-12-10T12:36:38 ICT" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:38 ICT" name="beforeMethod" finished-at="2021-12-10T12:36:44 ICT" duration-ms="5632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:44 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:36:56 ICT" duration-ms="12143" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thành công với password là chữ cái]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaaaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aaaaa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dashboard ‹ Animenews — WordPress]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Dashboard ‹ Animenews — WordPress] but found [Hồ sơ ‹ Animenews — WordPress]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Dashboard ‹ Animenews — WordPress] but found [Hồ sơ ‹ Animenews — WordPress]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.LoginTest.login(LoginTest.java:162)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:56 ICT" name="afterMethod" finished-at="2021-12-10T12:36:56 ICT" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:36:56 ICT" name="beforeMethod" finished-at="2021-12-10T12:37:01 ICT" duration-ms="4915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:37:01 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:37:04 ICT" duration-ms="3150" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thành công với password là ký tự đặc biệt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ag]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[#*#&a%]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dashboard ‹ Animenews — WordPress]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Dashboard ‹ Animenews — WordPress] but found [Đăng nhập ‹ Animenews — WordPress]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Dashboard ‹ Animenews — WordPress] but found [Đăng nhập ‹ Animenews — WordPress]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at Login.LoginTest.login(LoginTest.java:162)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:37:04 ICT" name="afterMethod" finished-at="2021-12-10T12:37:04 ICT" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:37:04 ICT" name="beforeMethod" finished-at="2021-12-10T12:37:08 ICT" duration-ms="4173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:37:08 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:37:11 ICT" duration-ms="2833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thất bại với password là số]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaaaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: Mật khẩu mà bạn đã nhập cho người dùng aaaaa chưa đúng. Bạn quên mật khẩu?]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:37:11 ICT" name="afterMethod" finished-at="2021-12-10T12:37:11 ICT" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:37:11 ICT" name="beforeMethod" finished-at="2021-12-10T12:37:15 ICT" duration-ms="3777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:37:15 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:37:19 ICT" duration-ms="3488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thất bại với password là chữ cái]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaaaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aaaaa2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: Mật khẩu mà bạn đã nhập cho người dùng aaaaa chưa đúng. Bạn quên mật khẩu?]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:37:19 ICT" name="afterMethod" finished-at="2021-12-10T12:37:19 ICT" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:37:19 ICT" name="beforeMethod" finished-at="2021-12-10T12:37:22 ICT" duration-ms="3444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:37:22 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:37:25 ICT" duration-ms="3275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thất bại với password chứa space]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaaaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[aaa aa2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: Mật khẩu mà bạn đã nhập cho người dùng aaaaa chưa đúng. Bạn quên mật khẩu?]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:37:25 ICT" name="afterMethod" finished-at="2021-12-10T12:37:26 ICT" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:37:26 ICT" name="beforeMethod" finished-at="2021-12-10T12:37:29 ICT" duration-ms="3848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:37:29 ICT" name="login" data-provider="Provider" finished-at="2021-12-10T12:37:32 ICT" duration-ms="2851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiểm tra đăng nhập thất bại với password là ký tự đặc biệt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aaaaa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[#*#&@%1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Lỗi: Mật khẩu mà bạn đã nhập cho người dùng aaaaa chưa đúng. Bạn quên mật khẩu?]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Login.LoginTest@62379589]" started-at="2021-12-10T12:37:32 ICT" name="afterMethod" finished-at="2021-12-10T12:37:32 ICT" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Login.LoginTest -->
+    </test> <!-- test login -->
+  </suite> <!-- suite 1 -->
+</testng-results>

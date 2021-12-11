@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite Add user]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test add user(failed)">
+    <classes>
+      <class name="AddUser.AddUserTest">
+        <methods>
+          <include name="prepareDashboard"/>
+          <include name="close"/>
+          <include name="addUser" invocation-numbers="0 3 4 5 7 8 9 12 15 16 18 27 28 29 30 31 32 33 34 35"/>
+          <include name="refreshPageAddUser"/>
+        </methods>
+      </class> <!-- AddUser.AddUserTest -->
+    </classes>
+  </test> <!-- Test add user(failed) -->
+</suite> <!-- Failed suite [Suite Add user] -->
